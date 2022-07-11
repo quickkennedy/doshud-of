@@ -71,7 +71,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-120"	[$WIN32]
-		"ypos"			"r60"	[$WIN32]
+		"ypos"			"r50"	[$WIN32]
 		"wide"			"80"
 		"tall"			"80"
 	}
@@ -90,5 +90,34 @@
 		"tall"			"80"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
-	}	
+	}
+	
+	HudWeaponSelection
+	{
+		"fieldName" "HudWeaponSelection"
+		"ypos" 	"16"	[$WIN32]
+		"ypos" 	"32"	[$X360]
+		"visible" "1"
+		"enabled" "1"
+		"SmallBoxSize" "32"
+		"MediumBoxWide"	"80"
+		"MediumBoxWide_hidef"	"80"
+		"MediumBoxTall"	"50"
+		"MediumBoxTall_hidef"	"50"
+		"MediumBoxWide_lodef"	"70"
+		"MediumBoxTall_lodef"	"50"
+		"LargeBoxWide" "70"
+		"LargeBoxTall" "40"
+		"BoxGap" "8"
+		"SelectionNumberXPos" "4"
+		"SelectionNumberYPos" "4"
+		"SelectionGrowTime"	"0.4"
+		"WeaponBGXPos"	"5"
+		"WeaponBGYPos"	"0"
+		"TextYPos" "64"
+		"MaxSlots" "10"
+		"SelectionAlpha" "128"
+		"EmptyBoxColor" "0 0 0 80"
+		"ErrorYPos"	"30"
+	}
 }
