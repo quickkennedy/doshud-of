@@ -1,8 +1,8 @@
 // Load dosHUD overrides
+#base "defaults/huddemomanpipes.res"
 #base "dosHUD/demostickies.res"
 #base "dosHUD/democharge.res"
 // Load default version
-#base "defaults/huddemomanpipes.res"
 
 "Resource/UI/HudDemomanPipes.res"
 {

@@ -68,10 +68,14 @@
 		"fieldName"		"HudLungeMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"wide"			"f0"
-		"tall"			"f0"
+		"xpos"			"c-120"	[$WIN32]
+		"xpos_minmode"	"r52"	[$WIN32]
+		"ypos"			"r52"	[$WIN32]
+		"ypos_minmode"	"r50"	[$WIN32]
+		"xpos"			"r194"	[$X360]
+		"ypos"			"r74"	[$X360]
+		"wide"			"100"
+		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -92,16 +96,12 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"c-120"	[$WIN32]
+		"ypos"			"r80"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
+		"wide"			"80"
 		"wide_minmode"	"50"
-		"tall"			"8"
+		"tall"			"80"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
