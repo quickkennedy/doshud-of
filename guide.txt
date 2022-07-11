@@ -1,0 +1,36 @@
+import your hud
+
+first, rename your huds clientscheme (resource/clientscheme.res) to "clientscheme-[something].res". replace [something] with anything you want, just remember it for later.
+
+second, rename your huds hudlayout (scripts/hudlayout.res) to "hudlayout-[something].res". replace [something] with anything you want, just remember it for later.
+
+third, rename your huds scoreboard (resource/ui/scoreboard.res) to "scoreboard-[something].res". replace [something] with anything you want, just remember it for later.
+
+then, import the template files. make sure to override any files that need to be overwritten.
+
+go into the NEW clientscheme, hudlayout, and scoreboard files and replace the text "void" with whatever you did in place of [something] earlier.
+
+now, start up open fortress. load into any map, preferably dm_dev_itemtest.
+
+if you see a "%metal%" on your screen once loaded in, go into resource/ui/huddamageaccount.res and delete every element that isnt "CDamageAccountPanel"
+
+next, go into resource/ui/hudplayerhealth.res and delete everything below "PlayerStatusAnchor".
+
+next, go into scripts/hudlayout-[something].res and delete all of the element "HudWeaponSelection"
+
+your hud should now work in open fortress, however a few more things will be needed for it to be 100% perfect.
+
+the following files will need to be edited to look like your normal hud. this CANNOT be done automatically, and you will have to be a bit of an artist and imagine what the creator would have done:
+
+- resource/ui/hudlungemeter.res
+this file is the meter used by the grappling hook shotgun
+- resource/ui/hudlightningcharge.res
+this file is the meter used by the lightning gun
+- resource/ui/scoreboarddm.res
+this file is the scoreboard used in deathmatch
+- resource/ui/dmteammenu.res
+this file is the team selection menu used in deathmatch
+- resource/ui/basemodui/mainmenu.res
+this file is the entire main menu. it has different buttons than those found in live tf2, and as such needs to be changed.
+
+you can check in on the sourcemod hud development discord server for information on how to do these things: https://discord.gg/QKsBkdqxbN

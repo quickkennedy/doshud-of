@@ -1,4 +1,2 @@
-// Load dosHUD overrides
-#base "dosHUD/class.res"
-// Load default version
-#base "defaults/hudplayerclass.res"
+#base	"hudplayerclass-void.res"
+#base	"hudplayerclass-of.res"

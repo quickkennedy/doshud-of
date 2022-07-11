@@ -2,5 +2,6 @@ hudanimations_manifest
 {
 	"file"		"scripts/dosHUD/animations.txt"
 	"file"		"scripts/hudanimations.txt"
+	"file"		"scripts/hudanimations_tf-doshud.txt"
 	"file"		"scripts/hudanimations_tf.txt"
 }
