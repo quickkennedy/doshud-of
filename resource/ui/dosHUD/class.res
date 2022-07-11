@@ -16,10 +16,6 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"../vgui/replay/thumbnails/dosHUD/barRed"
-		"teambg_2"		"../vgui/replay/thumbnails/dosHUD/barRed"
-		"teambg_2_lodef"	"../vgui/replay/thumbnails/dosHUD/barRed"
-		"teambg_3"		"../vgui/replay/thumbnails/dosHUD/barBlu"
-		"teambg_3_lodef"	"../vgui/replay/thumbnails/dosHUD/barBlu"
 	}
 
 	// Background on 3D classes, bar
@@ -39,10 +35,6 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"../vgui/replay/thumbnails/dosHUD/barRed"
-		"teambg_2"		"../vgui/replay/thumbnails/dosHUD/barRed"
-		"teambg_2_lodef"	"../vgui/replay/thumbnails/dosHUD/barRed"
-		"teambg_3"		"../vgui/replay/thumbnails/dosHUD/barBlu"
-		"teambg_3_lodef"	"../vgui/replay/thumbnails/dosHUD/barBlu"
 	}
 
 	"PlayerStatusClassImageBGfw"
@@ -60,10 +52,6 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"../vgui/replay/thumbnails/dosHUD/bgRed"
-		"teambg_2"		"../vgui/replay/thumbnails/dosHUD/bgRed"
-		"teambg_2_lodef"	"../vgui/replay/thumbnails/dosHUD/bgRed"
-		"teambg_3"		"../vgui/replay/thumbnails/dosHUD/bgBlu"
-		"teambg_3_lodef"	"../vgui/replay/thumbnails/dosHUD/bgBlu"
 	}
 
     "PlayerStatusClassImage"
