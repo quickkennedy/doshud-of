@@ -1,3 +1,3 @@
 
-#base	"hudplayerclass-of.res"
 #base	"hudplayerclass-doshud.res"
+#base	"hudplayerclass-of.res"
